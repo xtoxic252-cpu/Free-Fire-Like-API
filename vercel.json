@@ -6,7 +6,6 @@
     { "src": "/(.*)", "dest": "index.py" }
   ],
   "regions": ["bom1"]
-}
 
 // Add this near the top of your Vercel API response handler
 res.setHeader('Access-Control-Allow-Credentials', true);
